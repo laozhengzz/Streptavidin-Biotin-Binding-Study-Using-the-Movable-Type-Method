@@ -1,0 +1,12 @@
+# "rn_coord_alldata_docked.txt" contains the individual free energy components of all the conformations and the PL complexes.
+
+#Run "streptavidin_tc_calculation.m" to obtain the streptavidin thermo cycle components. This script identifies close-like and open-like conformational ensemble by using a variation of -+0.5Å on the reaction coordinates of the crystal open and crystal close. Out of these ensembles, the lowest free energy is calculated to get the thermodynamic free energy cycle components. 
+
+#THis matlab script will generate 4 values, which are defined below
+#delG_close_to_open_apo represents the conf. free energy change between apo open and closed loopi (left arrow in TC in Figure 10 of manuscript).
+
+#delG_close_to_open_holo represents the conf. free energy change between holo open and closed loop (right arrow in TC in Figure 10 of manuscript.
+
+#delG_open_binding represents the binding free energy of Biotin binding in open loop (top arrow for the open loop in TC in Figure 10).
+
+#delG_close_binding represents the binding free energy of Biotin binding in closed loop (bottom arrow for the closed loop in TC in Figure 10).
