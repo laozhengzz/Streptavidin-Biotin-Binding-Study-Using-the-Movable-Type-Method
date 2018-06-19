@@ -1,0 +1,20 @@
+#THe main executable is "GARF_MT_EXE_pro_dockedligand". It can be run via run_mtfe_docking.sh. Please change the necessary paths in the run_mtfe_docking.sh and run_mtfe_docking.pbs to execute your free energy code. 
+
+# It will generate all the individual components of the free energy code. 
+
+## The net expression of free energies:
+
+# Apo protein = P_Tor + P_Non/(RcutoffPP*10) + ZE_P_san 
+
+# Holo protein = P_Tor + P_Non/(RcutoffPP*10) + COM/RcutoffPL + ZE_PL_san
+
+#Binding affinity = (P_Tor + P_Non/(RcutoffPP*10) + COM/RcutoffPL + ZE_PL_san + ZE_PL_water*(-0.03)) - (P_Tor + P_Non/(RcutoffPP*10) + ZE_P_san -ZE_L_san)
+
+where, RcutoffPP=6 and RcutoffPL=6
+P_Tor = Torsion of Apo protein
+P_Non = Intra protein non-bonded interactions
+ZE_P_san = Protein solvation
+ZE_L_san = Ligand solvation
+COM = Inter Protein-ligand interaction
+ZE_PL_san = Protein ligand solvation
+ZE_PL_water = water compensation with a parameter of 0.03 
