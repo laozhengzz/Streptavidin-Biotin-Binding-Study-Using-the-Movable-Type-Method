@@ -1,0 +1,18 @@
+delG_close_to_open_apo =
+
+   10.4378
+
+
+delG_close_to_open_holo =
+
+  -12.0533
+
+
+delG_open_binding =
+
+   -4.1925
+
+
+delG_close_binding =
+
+  -26.6836
