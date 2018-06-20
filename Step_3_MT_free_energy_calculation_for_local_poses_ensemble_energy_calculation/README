@@ -1,4 +1,4 @@
-#THe main executable is "GARF_MT_EXE_pro_dockedligand". It can be run via run_mtfe_docking.sh. Please change the necessary paths in the run_mtfe_docking.sh and run_mtfe_docking.pbs to execute your free energy code. 
+#The main executable is "GARF_MT_EXE_pro_dockedligand". It can be run via run_mtfe_docking.sh. Please change the necessary paths in the run_mtfe_docking.sh and run_mtfe_docking.pbs to execute your free energy code. In order to run the calculation, please download matlab data files pp_nonbonding_P_full.mat and vdw_d_all_AF.mat from the corresponding folders using the provided dropbox link, and put them in the same directory containing the main executable code.
 
 # It will generate all the individual components of the free energy code. 
 
