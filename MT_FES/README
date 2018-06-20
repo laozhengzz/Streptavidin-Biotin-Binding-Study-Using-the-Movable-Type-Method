@@ -1,0 +1,10 @@
+#The free energy components are assembled to calculate apo protein free energy and holo protein free energy. Since the binding component is not involved, we dont need to account for water compensation part.
+
+# The free energies for apo and holo protein are calculated using extract_P_PL.sh. It generates the output rncoord_p_pl.txt which has the free energies for each apo and holo protein.
+#
+# Using this output, find_lowest_apo_holo_difference.m script is run to get the free energy difference between open and closed loop states in apo and holo structures. 
+#
+
+###Run pmf_plot.sh to obtain free energy surface.
+#This script will first run plot_grid.m to obtain gridded data for gnuplot.
+#The second part runs gnuplot script to obtain FES plots- Papo.pdf and PLholo.pdf 
