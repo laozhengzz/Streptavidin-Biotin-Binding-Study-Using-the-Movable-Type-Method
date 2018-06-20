@@ -1,0 +1,5 @@
+parm pos_1.pdb
+reference 1mk5_pocket.pdb 
+trajin /Users/Nupur/Dropbox/MTFLEXB_scripts_data/Strept_code_conf_gen_with_AllOutputConformations/output_structures/cond_all.netcdf netcdf
+rms reference nofit @CA out rmsd_all_1mk5_back.dat
+go

@@ -1,0 +1,2 @@
+RMSD_wrt_to_crystal_closed 1.6329
+RMSD_wrt_to_crystal_open 1.6129

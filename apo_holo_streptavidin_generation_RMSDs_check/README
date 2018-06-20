@@ -1,0 +1,9 @@
+# For all the generated conformations (n=11546486), c-alpha RMSDs were calculated wrt to crystal closed and open structures using CPPTRAJ. Please use script getting_rmsds.sh to generate RMSDS. The output files will be rmsd_all_1mk5_back.dat and rmsd_all_1swc_back.dat. 
+
+# To obtain the lowest RMSDs wrt to crystal closed and crystal open pocket structure, the script lowest_rmsds.sh was run. Run it as sh lowest_rmsds.sh. This script will generate a file lowest_rmsds.txt that will contain the values of the lowest RMSDs obtained using MTFLexB.
+
+# For getting the unique backbone conformations, use sh unique_backbone.sh
+
+#To obtain the RMSD curve, please use sh rmsd_plot.sh. It will generate xmgrace plot. Otherwise rmsd_plot.agr can be viewed. Use xmgrace rmsd_plot.agr to view it 
+ 
+#Both rmsd_all_1mk5_back.dat and rmsd_all_1swc_back.dat files generated from our end can be downloaded from the provided dropbox link.
