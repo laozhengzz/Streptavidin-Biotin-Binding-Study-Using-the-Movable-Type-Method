@@ -10,7 +10,7 @@
 # Once any changes are made in any ".m" file, the executable will need to be regerated using mcc -R -nodisplay -R -singleCompThread -m mix_two_halves.m
 
 
-# All the conformations generated after running the code are stored in output_structures folder as all_cond.netcdf file. They can be converted to PDBs using CPPTRAJ utility. pos_1.pdb in the output folder can be used as the parameter file to get the rest of the structures from the trajectories. 
+# All the conformations generated after running the code are stored in output_structures folder as all_cond.netcdf file using the provided Dropbox link. They can be converted to PDBs using CPPTRAJ utility. pos_1.pdb in the output folder can be used as the parameter file to get the rest of the structures from the trajectories. 
 
 #
 # Requirements for running code: 
